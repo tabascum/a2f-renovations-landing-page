@@ -1,0 +1,32 @@
+//colors
+
+$orange: #fd7e14;
+$yellow: #ffc107;
+$gray-300: #dee2e6;
+$gray-900: #282800;
+
+$primary: orange;
+$secondary: $gray-900;
+$success: $yellow;
+
+//theme-colors
+$light: $gray-300;
+
+//nav-links
+
+$nav-link-color: $primary;
+$nav-link-hover-color: $success;
+
+//border radiusless
+
+$border-radius: none;
+
+//box-shadow
+
+$box-shadow: 0 0.5rem 1rem rgba($gray-900, 0.5);
+
+//font
+
+$font-family-sans-serif: "Tanker", "Supreme", sans-serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
