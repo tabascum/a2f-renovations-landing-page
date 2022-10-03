@@ -9,7 +9,7 @@
     <link href="https://api.fontshare.com/v2/css?f[]=tanker@400&f[]=supreme@400,401,300,500,700&display=swap"
         rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="./node_modules/bootstrap/scss/bootstrap.scss">
+    <link rel="stylesheet" href="../node_modules/bootstrap/scss/bootstrap.scss">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../css/styles.css">
     <!-- Bootstrap Icons -->
@@ -19,82 +19,77 @@
     <title>A2F Présentation</title>
 </head>
 
-<body>
-    <main class="container-fluid bg-dark bg-gradient text-primary">
-        <!-- Navbar -->
-        <div class="container-fluid header py-2 px-5">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid py-3 px-5 mx-2 gap-4">
-                    <h1 class="fw-bolder"><i class="bi bi-bricks"></i> A2F</h1>
-                    <h4>Rénovations Carrelage Maçonnerie Electricité</h4>
-                    <button class="navbar-toggler btn btn-primary" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                        <ul class="navbar-nav gap-3">
-                            <li class="nav-item text-primary">
-                                <a class="btn btn-outline-primary" href="../index.html">Accueil
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="btn btn-outline-primary" aria-current="page"
-                                    href="./presentation.html">Présentation</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="btn btn-outline-primary" href="./renovations.html">Rénovations</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="btn btn-outline-primary" href="./services.html">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="btn btn-primary" href="./contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
+<body class="container bg-dark bg-gradient text-primary">
+    <!-- Navbar -->
+    <div class="container header mt-2">
+        <nav class=" navbar navbar-expand-lg">
+            <div class="container gap-3">
+                <h1 class=" fw-bolder"><i class="bi bi-bricks"></i> A2F</h1>
+                <h4>Maçonnerie Carrelage Electricité</h4>
+                <button class="navbar-toggler btn btn-primary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav gap-3">
+                        <li class="nav-item text-primary">
+                            <a class="btn btn-outline-primary" aria-current="page" href="../index.html">Accueil
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-primary" href="presentation.html">Présentation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-primary" href="renovations.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-primary" aria-current="page" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-        </div>
-        <!-- Content Section -->
-        <div class="container p-4 content">
-            <div class="container p-4 border border-primary">
-                <div class="container">
-                    <p class="fs-1">Sur nous</p>
-                </div>
-                <div class="container-body">
-                    <p class="fs-2">
-                        Nous sommes une entreprise familial composé d'ouvriers professionnels : maçons, carreleurs,
-                        électriciens
-                        avec
-                        plus de 20 ans d'experience.
-                    </p>
+            </div>
+        </nav>
+    </div>
+    <!-- Content Section -->
+    <div class="container row-col py-5 content">
+        <div class="container p-4 border border-primary shadow" data-aos="slide-left" data-aos-duration="1200">
+            <h1 class="fw-bold mb-4">Sur nous</h1>
+            <div class="container-body">
+                <p class="fs-2">
+                    Nous sommes une entreprise familial composée d'ouvriers professionnels : maçons, carreleurs,
+                    électriciens
+                    avec
+                    plus de 20 ans d'experience.
+                </p>
 
-                    <p class="fs-2"> Nous avons notre savoir-faire tout exposé à Roanne et au Roannais, aux batimênts
-                        publics mais aussi
-                        chez
-                        nos clients particuliers que nos cherchent pour faire des travaux de renovation.</p>
-                    <p class="fs-2">
+                <p class="fs-2"> Nous avons notre savoir-faire tout exposé à Roanne et au Roannais, aux batimênts
+                    publics mais aussi
+                    chez
+                    nos clients particuliers que nos cherchent pour faire des travaux de renovation.</p>
+                <p class="fs-2">
 
-                        Avez vous une piscine pour poser carrelage? Une cuisine ou salle de bains à rénover? Des
-                        installations
-                        electrics pour faire?
-                    </p>
-                </div>
-                <button class="btn btn-primary btn-lg rounded-0 align-end">N'atenddez plus, contactez-nous!</button>
-
+                    Avez vous une piscine pour poser carrelage? Une cuisine, une chambre ou salle de bains à
+                    rénover? Des
+                    installations
+                    electriques pour faire?
+                </p>
             </div>
         </div>
-        <!-- Footer -->
-        <div class="container text-center">
-            <div class="container p-2">
-                <p class="card-title"><i class="bi bi-c-circle"></i>A2F 2022 All rights reserved</p>
-            </div>
+        <div class="row-col text-end my-4" data-aos="slide-right" data-aos-duration="1200">
+            <a class="btn btn-lg btn-primary fs-2 rounded-0" href="./contact.html">N'atenddez plus!
+                Contactez-nous</a>
         </div>
-    </main>
+    </div>
+    <!-- Footer -->
+    <div class="container text-center">
+        <div class="container p-3">
+            <p class="card-title"><i class="bi bi-c-circle"></i>A2F 2022 All rights reserved</p>
+        </div>
+    </div>
 
     <!-- Bootstrap JS -->
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <!-- AOS JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

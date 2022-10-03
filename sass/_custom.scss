@@ -5,19 +5,27 @@ $yellow: #ffc107;
 $gray-300: #dee2e6;
 $gray-900: #282800;
 
-$primary: orange;
+$primary: $orange;
 $secondary: $gray-900;
 $success: $yellow;
 
 //theme-colors
-$light: $gray-300;
+
+$light: $gray-500;
+$dark: $secondary;
 
 //nav-links
 
 $nav-link-color: $primary;
 $nav-link-hover-color: $success;
 
-//border radiusless
+//buttons
+$btn-padding-y: 0.5rem;
+$btn-padding-x: 0.75rem;
+
+$padding: $btn-padding-y, $btn-padding-x;
+
+//borders
 
 $border-radius: none;
 
