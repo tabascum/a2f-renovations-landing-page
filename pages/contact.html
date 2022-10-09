@@ -19,7 +19,7 @@
     <title>A2F Services</title>
 </head>
 
-<body class="container bg-dark bg-gradient text-primary" style="height: 100vh;">
+<body class="container bg-dark bg-gradient text-primary">
     <!-- Navbar -->
     <div class="container header mt-2">
         <nav class=" navbar navbar-expand-lg">
@@ -56,7 +56,7 @@
         <div class="container justify-content-center row mx-auto">
             <div class="col-md-5 text-primary align-self-center mx-auto shadow bg-dark" data-aos="slide-right"
                 data-aos-duration="1000">
-                <form class="py-5">
+                <form class="py-4 px-2">
                     <div class="row mb-3">
                         <label for="name" class="col-sm-2 col-form-label">nom</label>
                         <div class="col-sm-10">
@@ -75,28 +75,43 @@
                             <input type="email" class="form-control border-primary" id="email" required>
                         </div>
                     </div>
-                    <div class="mb-3">
-                        <label for="validationTextarea" class="form-label">message</label>
-                        <textarea class="form-control border-primary" id="validationTextarea" required></textarea>
-                        <div class="invalid-feedback">
+                    <div class="row mb-3">
+                        <label for="textarea" class="col-sm-2 col-form-label">message</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control border-primary" id="textarea" required></textarea>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-lg rounded-0">envoyer</button>
+                    <div class="row mb-3">
+                        <div class="col-sm-10">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-0 mt-4">envoyer</button>
+                        </div>
+                    </div>
                 </form>
             </div>
             <div class="col-md-6 align-self-center">
-                <div class="col mx-auto" data-aos="slide-left" data-aos-duration="1200">
+                <div class="col mx-auto my-2" data-aos="slide-left" data-aos-duration="1200">
                     <div class="card shadow">
                         <div class="card-body">
-                            <p class="card-text h2"> 42120 Le Coteau, France
+                            <p class="header h2">téléphone</p>
+                            <p class="card-text h3 text-end">(+33)*** *** ***
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col mx-auto" data-aos="slide-left" data-aos-duration="1200">
+                <div class="col mx-auto my-2" data-aos="slide-left" data-aos-duration="1200">
                     <div class="card shadow">
                         <div class="card-body">
-                            <p class="card-text h2">a2f@a2f.fr
+                            <p class="header h2">Adresse</p>
+                            <p class="card-text h3 text-end"> 42120 Perreux, France
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-auto my-2" data-aos="slide-left" data-aos-duration="1200">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <p class="header h2">email</p>
+                            <p class="card-text h3 text-end">a2f@a2f.fr
                             </p>
                         </div>
                     </div>
